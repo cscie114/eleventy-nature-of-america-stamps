@@ -65,6 +65,10 @@ header nav {
     align-self: center;
 }
 
+main p {
+    line-height: 1.5;
+}
+
 ul.stamppanes {
     list-style: none;
     margin-left: 0;
