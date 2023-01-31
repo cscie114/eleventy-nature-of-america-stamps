@@ -2,6 +2,7 @@
 title: Great Plains Prairie
 sn: 3506
 year: 2001
+place: Lincoln, Nebraska
 tags:
   - panes
 layout: base

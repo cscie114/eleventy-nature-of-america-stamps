@@ -2,6 +2,12 @@
 title: "Nature of America Stamp Panes"
 layout: "base"
 ---
-{% for pane in collections.panes %}
-  <p>{{ pane.url }} | {{ pane.data.title }}</p>
-{% endfor %}
+<ul class="stamppanes">
+  {% for pane in collections.panes %}
+    <li>
+      <a href="{{ pane.url }}"><img src="/assets/images/thumb-sn{{pane.data.sn}}.png" alt="{{pane.data.title}}" /></a>
+      <a href="{{ pane.url }}">{{ pane.data.title }}</a>
+      <p>{{ pane.data.place }}<br/>{{ pane.data.year }}</p>
+    </li>
+  {% endfor %}
+</ul>

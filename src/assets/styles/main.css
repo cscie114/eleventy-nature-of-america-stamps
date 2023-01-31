@@ -64,3 +64,29 @@ header nav {
     justify-self: end;
     align-self: center;
 }
+
+ul.stamppanes {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    grid-gap: 1rem;
+}
+
+ul.stamppanes li {
+    border: thin solid black;
+    padding: 0.5rem;
+    background-color: white;
+}
+
+ul.stamppanes li a {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+ul.stamppanes li img {
+    max-width: 100%;
+}

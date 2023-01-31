@@ -2,6 +2,7 @@
 title: Longleaf Pine Forest
 sn: 3611
 year: 2002
+place: Tallahassee, Florida
 tags:
   - panes
 layout: base
