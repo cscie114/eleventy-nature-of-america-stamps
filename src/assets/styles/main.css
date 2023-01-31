@@ -94,3 +94,32 @@ ul.stamppanes li a {
 ul.stamppanes li img {
     max-width: 100%;
 }
+
+
+.panestamps {
+    display: grid;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr));
+    grid-gap: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.binomial { font-style: italic; }
+
+ul.species {
+    margin: 0;
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+ul.species li {
+    border: thin solid gray;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+ul.species li div { margin-top: 0.5rem;}
+ul.species li div.external_links { font-size: 0.9rem;}
