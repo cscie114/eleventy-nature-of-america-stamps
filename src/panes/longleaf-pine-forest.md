@@ -3,9 +3,6 @@ title: Longleaf Pine Forest
 sn: 3611
 year: 2002
 place: Tallahassee, Florida
-tags:
-  - panes
-layout: pane
 ---
 Although greatly reduced in size, the longleaf pine forest still occupies parts of its natural range in the coastal plains from southeastern Virginia to eastern Texas. Characterized by the longleaf pine, this unique ecosystem includes many plant communities that vary with soil type, moisture, and frequency of fire.
 
